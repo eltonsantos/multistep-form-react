@@ -31,8 +31,8 @@ type FormValues = z.infer<typeof schema>;
 const sourceSteps = [
   {
     label: "Dados Pessoais",
-    Component: <PersonalInfo />,
     fields: ["name", "age"],
+    Component: <PersonalInfo />,
     hasError: false,
   },
   {
